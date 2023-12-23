@@ -1,3 +1,11 @@
+# installing the required packages
+install.packages("tidyverse")
+install.packages("ggforce")
+install.packages("sf")
+library(ggplot2)
+library(ggforce)
+library(sf)
+
 # creating the background
 t1 <- ggplot() +
   theme_void() +
@@ -144,7 +152,7 @@ t8 <- t7 +
   )
 t8
 
-#adding the presents
+# adding the presents
 
 t9 <- t8 + 
   annotate(
@@ -299,7 +307,7 @@ t20 <- t19 +
   )
 t20
 
-# Merry Christmas Wish
+# adding the Merry Christmas Text
 t21 <- t20 +
   annotate(
     geom = "text",
