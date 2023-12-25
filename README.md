@@ -1,6 +1,6 @@
 # R You Ready for Christmas?
 ## A Guide to Creating Custom Cards with R
-
+![christmas](https://github.com/Arpita-deb/Creating-Christmas-Card-in-R/assets/139372731/cff47923-ad0b-45be-a0bb-0e54c3515ae0)
 Inspired by an article as how to create a Christmas card in R, I've created my own version of it using ggplot() in R Programming Language.
 
 # Tool used: 
